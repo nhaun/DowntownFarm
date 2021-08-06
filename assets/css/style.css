@@ -744,6 +744,33 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.services .image {
+  background: url("../img/iPhone_new_new.png") center center no-repeat;
+  background-size: cover;
+  min-height: 800px;
+  border-radius: 1%;
+}
+
+.services .button-image {
+  max-width: 60%;
+}
+
+.services .button-image-apple {
+  max-width: 50%;
+}
+
+@media (max-width: 667px) {
+  .services .button-image {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 667px) {
+  .services .button-image-apple {
+    max-width: 80%;
+  }
+}
+
 .services .icon-box {
   margin-bottom: 20px;
   text-align: center;
