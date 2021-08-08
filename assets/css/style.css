@@ -43,6 +43,12 @@ Dunkelgrau: #2c3235
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@media (max-width: 575px) {
+  .left-justified {
+    padding-left: 20px;
+  }
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -621,7 +627,7 @@ section {
 }
 
 .about .image {
-  background: url("../img/wir3.jpg") center center no-repeat;
+  background: url("../img/wir.jpg") center center no-repeat;
   background-size: cover;
   min-height: 400px;
   border-radius: 1%;
@@ -744,19 +750,9 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.services .image {
-  background: url("../img/iPhone_new_new.png") center center no-repeat;
-  background-size: cover;
-  min-height: 800px;
-  border-radius: 1%;
-}
 
 .services .button-image {
-  max-width: 60%;
-}
-
-.services .button-image-apple {
-  max-width: 50%;
+  height: 60px;
 }
 
 @media (max-width: 667px) {
