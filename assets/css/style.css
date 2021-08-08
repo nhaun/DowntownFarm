@@ -17,7 +17,7 @@ Dunkelgrau: #2c3235
 # Loader
 --------------------------------------------------------------*/
 #loading {
-  background: url('/assets/img/loader.gif') no-repeat center center;
+  background: url('assets/img/loader.gif') no-repeat center center;
   position: absolute;
   top: 0;
   left: 0;
@@ -652,21 +652,21 @@ section {
 # Counts
 --------------------------------------------------------------*/
 .icon-percent {
-  background: url('/assets/img/icons/Prozent.svg');
+  background: url('assets/img/icons/Prozent.svg');
   height: 48px;
   width: 48px;
   display: inline-block;
 }
 
 .icon-calendar {
-  background: url('/assets/img/icons/Kalender.svg');
+  background: url('assets/img/icons/Kalender.svg');
   height: 45px;
   width: 45px;
   display: inline-block;
 }
 
 .icon-heart {
-  background: url('/assets/img/icons/Herz.svg');
+  background: url('assets/img/icons/Herz.svg');
   height: 45px;
   width: 45px;
   display: inline-block;
